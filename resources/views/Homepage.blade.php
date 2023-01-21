@@ -1,7 +1,12 @@
-@extends('layouts.welcome')
-@section('main')
-<form>
+@extends('layouts.app')
+@section('content')
+<div class="container justify-content-center" >
+  <div class="mt-4 card">
+    <div class="card-body bg-white">
+    
+<form class="m-auto" style="with: 80%">
   <div class="form-group">
+  
     <label for="exampleFormControlInputnum">ID Number</label>
     <input type="email" class="form-control" id="exampleFormControlInputnum" placeholder="Inter ID Number">
   </div>
@@ -32,4 +37,5 @@
 <button type="button" class="btn btn-success">Submit</button>
 
 </form>
+<div
 @endsection
